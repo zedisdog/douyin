@@ -3,13 +3,13 @@
 通过chromedp库对视频上传做自动化
 
 ## 使用
-1. 登录都应创作者中心https://creator.douyin.com
+1. 登录抖音创作者中心https://creator.douyin.com
 2. 首页获取live_status接口请求中的cookie
 3. 使用uploader_test.go中的示例代码运行
 
 ## 特性
 - [x] 支持代理
-- [x] 简单重负检测
+- [x] 简单重复检测(检测第一页是否已经存在当前要发的视频)
 - [x] 支持视频http下载链接
 - [x] 支持指定本地路径
 - [x] 支持设置作品标题和描述
